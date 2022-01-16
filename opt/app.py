@@ -55,4 +55,4 @@ for url in url_list:
 
 # CSV出力
 df = pd.DataFrame(csv_list)
-df.to_csv('結果.csv')
+df.to_csv('../結果.csv')
